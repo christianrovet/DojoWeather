@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*nav bar*/
+.nav{
+    display: flex;
+    background-color: skyblue;
+    color:honeydew;
+    justify-content: space-between;
+}
+
+.nav-title{
+    margin: auto 0 auto 200px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.nav-links{
+    display:flex;
+    list-style-type: none;
+    margin: auto 250px auto 100px;
+}
+li{
+    margin: 1rem 3rem;
+    font-size: 1.5rem;
+}
+/*unvisited link*/
+li a:link {
+    color: honeydew;
+    text-decoration: none;
+}
+/*visited link*/
+li a:visited {
+    color: honeydew;
+    text-decoration: none;
+}
+/*interactive links*/
+li a:hover {
+    color: honeydew;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*header*/
+.header{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.state{
+    font-size: 2rem;
+}
+
+.tempType{
+display: flex;
+align-items: center;
+}
+
+/*main*/
+
+.main{
+    height: 320px;
+    width: 650px;
+    margin: 0 auto;
+    border-top: 2px solid #111;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.day{
+    background-color:lightgrey;
+    height : 300px;
+    width: 300px;
+    margin: auto 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.weatherImg{
+    border-radius: 50%;
+    height: 80px;
+}
+
+.dayTemp{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+.redTemp{
+    color: red;
+}
+.blueTemp{
+    color: blue;
+}
+
+#cookies{
+    height: 100px;
+    width: 650px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #777;
+    box-shadow: 5px 5px #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed, center;
+    bottom: 20px;
+}
+
+.btn{
+    background-color: skyblue;
+    border: none;
+    box-shadow: 3px 3px #111;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}

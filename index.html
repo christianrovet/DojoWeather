@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- start of nav -->
+    <div class="nav">
+        <h1 class="nav-title">DojoWeather</h1>
+        <ul class="nav-links">
+            <li><a href="#" onclick="msg()">Burbank</a></li>
+            <li><a href="#">Chicago</a></li>
+            <li><a href="#">Dallas</a></li>
+        </ul>
+    </div>
+    <!-- end of nav -->
+
+    <!--start of head-->
+    <div class="header">
+        <div class="state">San Jose</div>
+        <div class="tempType">
+            <p>show temperature in</p>
+            <select>
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+        </div>
+    </div>
+    <!--end of head-->
+
+    <!--start of main-->
+    <div class="main">
+        <div class="day">
+            <h2>Today</h2>
+            <img class="weatherImg" src="imgs/rain_cloud.PNG" alt="rain cloud">
+            <h4>some rain</h4>
+            <div class="dayTemp">
+                <div class="redTemp">23.9°</div>
+                <div class="blueTemp">18.3°</div>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Tommorow</h2>
+            <img class="weatherImg" src="imgs/sunny.PNG" alt="sunny">
+            <h4>some rain</h4>
+            <div class="dayTemp">
+                <div class="redTemp">23.9°</div>
+                <div class="blueTemp">18.3°</div>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Friday</h2>
+            <img class="weatherImg" src="imgs/cloud.PNG" alt="cloud">
+            <h4>some rain</h4>
+            <div class="dayTemp">
+                <div class="redTemp">23.9°</div>
+                <div class="blueTemp">18.3°</div>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Saturday</h2>
+            <img class="weatherImg" src="imgs/sunny.PNG" alt="sunny">
+            <h4>some rain</h4>
+            <div class="dayTemp">
+                <div class="redTemp">23.9°</div>
+                <div class="blueTemp">18.3°</div>
+            </div>
+        </div>
+    </div>
+    <div id="cookies">
+        <p><strong>Stop! Cookie time</strong><br>
+            We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic.</p>
+        <button class="btn" onclick="gameStart()">I Accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
